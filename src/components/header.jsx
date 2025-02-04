@@ -55,8 +55,8 @@ function Header() {
                         </div>
                         <ul>
                             <li><a href="">HOME</a></li>
-                            <li><a href="#footer">ABOUT</a></li>
                             <li><a href="#course">COURSE</a></li>
+                            <li><a href="#footer">ABOUT</a></li>  
                             <li><a href="#testimonials">BLOG</a></li>
                             <li><a href="#cta">CONTACT</a></li>
                         </ul>
