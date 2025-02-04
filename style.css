@@ -379,3 +379,46 @@ h3 {
     padding: 18px 0;
     transition: 0.5s;
 }
+/* For mobile devices */
+@media (max-width: 700px) {
+    .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px; /* Initially hidden */
+        text-align: left;
+        z-index: 2;
+        transition: max-height 0.5s ease, opacity 0.5s ease;
+        overflow: hidden;
+    }
+    .max-h-screen {
+        max-height: 100vh;
+        opacity: 100;
+    }
+
+    .max-h-0 {
+        max-height: 0;
+        opacity: 0;
+    }
+    .icons {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
