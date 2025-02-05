@@ -1,4 +1,4 @@
-import React from "react";
+
 import Header from "./header";
 import Courses from "./Courses";
 import Campus from "./campus";

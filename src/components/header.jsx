@@ -1,5 +1,5 @@
 
-import {React,  useState } from "react";
+import {  useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -31,7 +31,7 @@ function Header() {
                     </div>
                 </nav>
                 <div className="text-box">
-                    <h1>World's Biggest University</h1>
+                    <h1> The World's Biggest University</h1>
                     <p>
                         Alex University the best place to acquire knowledge in your field<br />
                     </p>

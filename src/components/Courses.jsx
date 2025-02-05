@@ -1,4 +1,4 @@
-import React from "react";
+
 import courses from "../courses";
 import CourseCards from "./coursecards";
 import ScrollAnimation from 'react-animate-on-scroll'

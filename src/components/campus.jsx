@@ -1,4 +1,4 @@
-import React from "react";
+
 import campuses from "../campuses";
 import CampusCards from "./campuscards";
 
