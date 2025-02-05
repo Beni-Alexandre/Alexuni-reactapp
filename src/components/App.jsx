@@ -8,16 +8,16 @@ import Cta from "./Cta";
 import Footer from "./footer";
 import "animate.css/animate.compat.css"
 import ScrollAnimation from 'react-animate-on-scroll'
-import FadeIn from 'react-fade-in';
+import { motion } from "framer-motion";
 
 
 
 function App() {
   return (
     <div >
-      <FadeIn>
+     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1.5 }} transition={{ duration: 1 }}>
       <Header />
-      </FadeIn>
+      </motion.div>;
       
       <ScrollAnimation animateIn="fadeIn">
       <Courses />
